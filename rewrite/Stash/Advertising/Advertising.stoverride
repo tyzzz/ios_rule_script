@@ -1,11 +1,11 @@
 name: 复写去广告
-desc: 最后更新时间 2024-12-12 02:17:30
+desc: 最后更新时间 2025-01-02 02:16:02
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 744
-# mitm: 703
+# reject: 747
+# mitm: 704
 # force-http-engine-hosts: 6
-# total: 1453
+# total: 1457
 
 
 
@@ -217,6 +217,7 @@ http:
     - ^https?:\/\/api\.00bang\.cn\/llb\/baseinfo\/advertise\/getAdvertiseByPageCode - reject
     - ^https?:\/\/api\.21ec74\.com\/v2\.5\/ad - reject
     - ^https?:\/\/api\.21jingji\.com\/ad\/ - reject
+    - ^https?:\/\/api\.369cx\.cn\/v\d\/Splash\/GetSplashAd - reject
     - ^https?:\/\/api\.abema\.io\/v\d\/ip\/check - reject
     - ^https?:\/\/api\.ahmobile\.cn:443\/eip\?eip_serv_id=app\.getAllNew - reject
     - ^https?:\/\/api\.applovefrom\.com\/api\/v\d\/splash\/ - reject
@@ -286,6 +287,7 @@ http:
     - ^https?:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList) - reject
     - ^https?:\/\/api\.wmpvp\.com\/api\/v\d\/config\/promote - reject
     - ^https?:\/\/api\.xiachufang\.com\/v\d\/ad/ - reject
+    - ^https?:\/\/api\.xiaoheihe\.cn\/.*get_ads_info - reject
     - ^https?:\/\/api\.xiaoyi\.com\/v5\/app\/config\?userid=.* - reject
     - ^https?:\/\/api\.xiaoyi\.com\/v5\/app\/mobile\/ads - reject
     - ^https?:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json - reject
@@ -397,6 +399,7 @@ http:
     - ^https?:\/\/creditcardapp\.bankcomm\.cn\/mappweb_interface\/common\/(qryPopAds|qryLaunchAds)\.do - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$ - reject
     - ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do - reject
+    - ^https?:\/\/creditcardapp\.bankcomm\.com\/mappweb.*(Advert|Ads).do - reject
     - ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds - reject
     - ^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd - reject
     - ^https?:\/\/data-collector\.soulapp\.cn\/api\/data\/report$ - reject
@@ -768,6 +771,7 @@ http:
     - "wmapi.meituan.com"
 
   mitm:
+    - "*.1rtb.net"
     - "*.58cdn.com.cn"
     - "*.5eplay.com"
     - "*.ahhhhfs.com"
@@ -881,6 +885,7 @@ http:
     - "api.00bang.cn"
     - "api.21ec74.com"
     - "api.21jingji.com"
+    - "api.369cx.cn"
     - "api.abema.io"
     - "api.ahmobile.cn"
     - "api.aliyundrive.com"
@@ -954,6 +959,7 @@ http:
     - "api.wfdata.club"
     - "api.wmpvp.com"
     - "api.xiachufang.com"
+    - "api.xiaoheihe.cn"
     - "api.xiaoyi.com"
     - "api.xueqiu.com"
     - "api.yangkeduo.com"
@@ -1342,7 +1348,6 @@ http:
     - "s1.api.tv.itc.cn"
     - "s3plus.meituan.net"
     - "saad.ms.zhangyue.net"
-    - "sdk.1rtb.net"
     - "sdk.alibaba.com.ailbaba.me"
     - "security.wechat.com"
     - "service.4gtv.tv"
@@ -1468,6 +1473,5 @@ http:
     - "zjh5api.189smarthome.com"
     - "zjh5api.ott4china.com"
     - "zjmbank.js96008.com"
-    - "zlsdk.1rtb.net"
     - "zone.guiderank-app.com"
     - "ztoread.ziroom.com"

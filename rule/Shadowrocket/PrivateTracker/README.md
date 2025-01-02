@@ -12,30 +12,24 @@ PT下载规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-12-16 02:13:10
+最后更新时间：2025-01-02 02:13:27
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 147  | 
+| DOMAIN | 151  | 
 | DOMAIN-KEYWORD | 4  | 
 | DOMAIN-SUFFIX | 123  | 
-| IP-CIDR | 3  | 
-| TOTAL | 277  | 
+| TOTAL | 278  | 
 
 
 ## Shadowrocket 
 
 #### 使用说明
 - PrivateTracker.list，请使用RULE-SET。
-- PrivateTracker_Resolve.list，请使用RULE-SET。
-
-#### 文件区别
-- PrivateTracker_Resolve.list与PrivateTracker.list的区别仅在于后者IP-CIDR(6)类型带no-resolve。
 
 #### 配置建议
 - PrivateTracker.list 单独使用。
-- PrivateTracker_Resolve.list 单独使用。
 
 #### 规则链接
 **MASTER分支 (每日更新)**
@@ -72,7 +66,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 《PT下载》的数据来自以下链接，如与本项目的《PT下载》规则混合使用，可能会造成规则大量重复。
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list
-- https://raw.githubusercontent.com/Meilieage/webcdn/main/rule/list/PrivateTracker.list
 - https://trackerslist.com/all.txt
 - https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/PrivateTracker.yaml
