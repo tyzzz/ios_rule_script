@@ -277,7 +277,7 @@ payload:
   - DOMAIN-SUFFIX,torrentseeds.org
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-SUFFIX,trontv.com
-  - DOMAIN-SUFFIX,u2.dmhy.org
+ # - DOMAIN-SUFFIX,u2.dmhy.org
   - DOMAIN-SUFFIX,uhdbits.org
   - DOMAIN-SUFFIX,xauat6.edu.cn
   - DOMAIN-KEYWORD,announce
